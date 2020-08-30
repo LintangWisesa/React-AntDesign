@@ -18,9 +18,9 @@ const App = () => (
     <div>
       <nav>
         <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/typo">Typography</Link></li>
-          <li><Link to="/button">Button</Link></li>
+          <li><Link to="/">Home | </Link></li>
+          <li><Link to="/typo">Typography | </Link></li>
+          <li><Link to="/button">Button | </Link></li>
         </ul>
       </nav>
       <Switch>
