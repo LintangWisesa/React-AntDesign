@@ -73,7 +73,7 @@ $ cd yourReactApp
 </a>
 
 <a href="https://www.youtube.com/user/lintangbagus">
-  <img style="margin-right:10px" align="left" alt="lintang youtube" width="29px" src="https://camo.githubusercontent.com/5b55cea011025699edf565f0eb25a6acc4e3e6a4/68747470733a2f2f6c68332e676f6f676c6575736572636f6e74656e742e636f6d2f70726f78792f4852635f6c617a7378637338416f626f44315f5368527750326b3157514165454b5455556d325946716663586853336d386b6a6b4f4e6a6e4e7447786563545a584b4648584b526475675872305a78447659664469577a50434d5343466953495a72475a6b564f72563256664f46302d4a4255" />
+  <img style="margin-right:10px" align="left" alt="lintang youtube" width="29px" src="https://www.pinclipart.com/picdir/big/55-557137_a-quiet-drifter-takes-a-janitorial-job-at.png" />
 </a>
 
 <a href="https://www.linkedin.com/in/lintangwisesa/">

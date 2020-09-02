@@ -10,6 +10,7 @@ import {
 import Typo from './pages/0_Typography'
 import Button from './pages/1_Button'
 import Icon from './pages/2_Icon'
+import Layout from './pages/3_Layout'
 
 const App = () => (
   <Router>
@@ -23,6 +24,7 @@ const App = () => (
           <li><Link to="/typo">Typography | </Link></li>
           <li><Link to="/button">Button | </Link></li>
           <li><Link to="/icon">Icon | </Link></li>
+          <li><Link to="/layout">Layout | </Link></li>
         </ul>
       </nav>
       <Switch>
@@ -35,6 +37,7 @@ const App = () => (
         <Route path="/typo"><Typo/></Route>
         <Route path="/button"><Button/></Route>
         <Route path="/icon"><Icon/></Route>
+        <Route path="/layout"><Layout/></Route>
       </Switch>
     </div>
   </Router>
