@@ -7,7 +7,7 @@ import {
 
 class IconAD extends React.Component {
     
-    size = () => {return {fontSize: 30}}
+    size = () => {return {fontSize: 30, marginLeft:'30px', marginRight:'30px'}}
 
     render(){
 

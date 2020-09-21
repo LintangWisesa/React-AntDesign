@@ -13,7 +13,7 @@ class LayoutAD extends React.Component {
         const h3 = {padding:"20px"}
 
         return(
-        <div>
+        <div style={{marginLeft:'30px', marginRight:'30px'}}>
 
             <h3 style={h3}>Layout 1</h3>
             <Layout>

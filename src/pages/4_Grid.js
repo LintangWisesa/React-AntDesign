@@ -12,7 +12,7 @@ class GridAD extends React.Component {
         const style = { background: '#0092ff', padding: '8px 0' };
         
         return(
-        <div>
+        <div style={{marginLeft:'30px', marginRight:'30px'}}>
 
             <h3 style={h3}>Basic Grid</h3>
             <Row style={row}>

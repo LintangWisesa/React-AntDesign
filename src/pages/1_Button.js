@@ -39,7 +39,7 @@ class ButtonAD extends React.Component {
         const { size, loadings } = this.state;
         
         return(
-        <div>
+        <div style={{marginLeft:'30px', marginRight:'30px'}}>
             <h3>Button Types</h3>
             <Button type="primary">Primary Button</Button>
             <Button>Default Button</Button>

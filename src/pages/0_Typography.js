@@ -4,7 +4,7 @@ import { SmileOutlined } from '@ant-design/icons';
 const { Title, Paragraph, Text, Link } = Typography;
 
 const TypoAD = () => (
-    <div>
+    <div style={{marginLeft:'30px', marginRight:'30px'}}>
         <Title>h1. Ant Design</Title>
         <Title level={2}>h2. Ant Design</Title>
         <Title level={3}>h3. Ant Design</Title>

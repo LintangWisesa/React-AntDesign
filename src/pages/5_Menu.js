@@ -26,7 +26,7 @@ class MenuAD extends React.Component {
     render(){
         const { current } = this.state;
         return (
-        <div style={{marginLeft:'30px'}}>
+        <div style={{marginLeft:'30px', marginRight:'30px'}}>
 
             <h3>1. Top Navigation</h3>
             <Menu onClick={this.handleClick} selectedKeys={[current]} mode="horizontal">

@@ -33,7 +33,7 @@ const App = () => (
       </nav>
       <Switch>
         <Route exact path="/">
-          <div>
+          <div style={{marginLeft:'30px', marginRight:'30px'}}>
             <h1>React & Ant Design</h1>
             <p>Summary of how to implement Ant Design on React projects</p>
           </div>
