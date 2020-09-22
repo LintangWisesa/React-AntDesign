@@ -13,6 +13,7 @@ import Icon from './pages/2_Icon'
 import Layout from './pages/3_Layout'
 import Grid from './pages/4_Grid'
 import Menu from './pages/5_Menu'
+import Pagination from './pages/6_Pagination'
 
 const App = () => (
   <Router>
@@ -29,6 +30,7 @@ const App = () => (
           <li><Link to="/layout">Layout | </Link></li>
           <li><Link to="/grid">Grid | </Link></li>
           <li><Link to="/menu">Menu | </Link></li>
+          <li><Link to="/pagination">Pagination | </Link></li>
         </ul>
       </nav>
       <Switch>
@@ -44,6 +46,7 @@ const App = () => (
         <Route path="/layout"><Layout/></Route>
         <Route path="/grid"><Grid/></Route>
         <Route path="/menu"><Menu/></Route>
+        <Route path="/pagination"><Pagination/></Route>
       </Switch>
     </div>
   </Router>
