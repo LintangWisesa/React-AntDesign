@@ -29,7 +29,7 @@ const App = () => (
           <li><Link to="/icon">Icon | </Link></li>
           <li><Link to="/layout">Layout | </Link></li>
           <li><Link to="/grid">Grid | </Link></li>
-          <li><Link to="/menu">Menu | </Link></li>
+          <li><Link to="/nav">Navigation | </Link></li>
           <li><Link to="/pagination">Pagination | </Link></li>
         </ul>
       </nav>
@@ -45,7 +45,7 @@ const App = () => (
         <Route path="/icon"><Icon/></Route>
         <Route path="/layout"><Layout/></Route>
         <Route path="/grid"><Grid/></Route>
-        <Route path="/menu"><Menu/></Route>
+        <Route path="/nav"><Menu/></Route>
         <Route path="/pagination"><Pagination/></Route>
       </Switch>
     </div>
