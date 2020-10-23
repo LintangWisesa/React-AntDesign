@@ -10,7 +10,7 @@ class CarouselAD extends React.Component {
             color: '#fff',
             lineHeight: '160px',
             textAlign: 'center',
-            background: 'lightsalmon',
+            background: 'lightsalmon'
         };
         
         return(
