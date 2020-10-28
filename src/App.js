@@ -17,6 +17,7 @@ import Pagination from './pages/6_Pagination'
 import Forms from './pages/7_Form'
 import Carousel from './pages/8_carousel'
 import Table from './pages/9_table'
+import Timeline from './pages/10_Timeline'
 
 const App = () => (
   <Router>
@@ -37,6 +38,7 @@ const App = () => (
           <li><Link to="/forms">Forms | </Link></li>
           <li><Link to="/carousel">Carousel | </Link></li>
           <li><Link to="/table">Table | </Link></li>
+          <li><Link to="/timeline">Timeline | </Link></li>
         </ul>
       </nav>
       <Switch>
@@ -56,6 +58,7 @@ const App = () => (
         <Route path="/forms"><Forms/></Route>
         <Route path="/carousel"><Carousel/></Route>
         <Route path="/table"><Table/></Route>
+        <Route path="/timeline"><Timeline/></Route>
       </Switch>
     </div>
   </Router>
